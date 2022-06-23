@@ -1,0 +1,74 @@
+#!/bin/sh
+
+mkdir -p _/0
+mkdir -p _/1
+mkdir -p _/2
+
+mv *{S,U}0* _/0/
+mv *{S,U}1* _/1/
+mv *{S,U}2* _/2/
+
+mkdir -p A/1/
+mkdir -p A/2/
+mkdir -p A/3/
+mkdir -p A/4/
+mkdir -p A/8/
+mkdir -p B/8/
+mkdir -p B/4/
+mkdir -p B/3/
+mkdir -p B/2/
+mkdir -p B/1/
+mkdir -p C/1/
+mkdir -p C/2/
+mkdir -p C/3/
+mkdir -p C/4/
+mkdir -p C/8/
+mkdir -p D/8/
+mkdir -p D/1/
+mkdir -p D/2/
+mkdir -p D/3/
+mkdir -p D/4/
+mkdir -p E/4/
+mkdir -p E/3/
+mkdir -p E/2/
+mkdir -p F/1/
+mkdir -p F/-1/
+mkdir -p F/2/
+mkdir -p F/-2/
+mkdir -p F/3/
+mkdir -p F/-3/
+mkdir -p F/4/
+mkdir -p F/-4/
+
+mv *A1_* A/1/
+mv *A2_* A/2/
+mv *A3_* A/3/
+mv *A4_* A/4/
+mv *A8_* A/8/
+mv *B8_* B/8/
+mv *B4_* B/4/
+mv *B3_* B/3/
+mv *B2_* B/2/
+mv *B1_* B/1/
+mv *C1_* C/1/
+mv *C2_* C/2/
+mv *C3_* C/3/
+mv *C4_* C/4/
+mv *C8_* C/8/
+mv *D8_* D/8/
+mv *D1_* D/1/
+mv *D2_* D/2/
+mv *D3_* D/3/
+mv *D4_* D/4/
+mv *E4_* E/4/
+mv *E3_* E/3/
+mv *E2_* E/2/
+mv *F1_* F/1/
+mv *F-1_* F/-1/
+mv *F2_* F/2/
+mv *F-2_* F/-2/
+mv *F3_* F/3/
+mv *F-3_* F/-3/
+mv *F4_* F/4/
+mv *F-4_* F/-4/
+

@@ -1,0 +1,22 @@
+[package]
+name = "cache_utils"
+version = "0.1.0"
+authors = ["Guillaume DIDIER <guillaume.didier.2014@polytechnique.org>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cpuid = { path = "../cpuid" }
+x86_64 = "0.14.1"
+itertools = "0.10.0"
+atomic = "0.5.0"
+
+nix = "0.20.0"
+libc = "0.2.92"
+turn_lock = { path = "../turn_lock" }
+lazy_static = "1.4.0"
+bitvec = "0.22.3"
+
+[[bin]]
+name = "cache_utils"

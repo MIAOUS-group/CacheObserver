@@ -1,0 +1,9 @@
+On Nehalem :
+Bit 1 L2 Prefetcher
+Bit 2 L2 Adjacent Cache line
+Bit 3 L1 DCU next cache line
+Bit 4 L1 IP based prefetcher
+
+This is confirmed for Sandy Bridge in Table 2-20, which is supported by most processors of later generation (up to KabyLake at least)
+
+For strides, consider f, e and 7

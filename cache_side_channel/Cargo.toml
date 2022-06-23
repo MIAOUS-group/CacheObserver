@@ -1,0 +1,11 @@
+[package]
+name = "cache_side_channel"
+version = "0.1.0"
+authors = ["Guillaume DIDIER <guillaume.didier.2014@polytechnique.org>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+nix = "0.20.0"
+bit_field = "0.10.1"

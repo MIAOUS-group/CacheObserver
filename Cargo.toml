@@ -1,0 +1,29 @@
+[workspace]
+
+members = [
+    "cache_utils",
+    "cpuid",
+    "cache_side_channel",
+    "flush_reload",
+    "flush_flush",
+    "basic_timing_cache_channel",
+    "turn_lock",
+    "prefetcher_reverse",
+]
+
+[package]
+name = "dendrobates_tinctoreus_azureus"
+version = "0.1.0"
+authors = ["Guillaume DIDIER <guillaume.didier.2014@polytechnique.org>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[profile.dev]
+opt-level = 1
+debug = 2
+
+[profile.test]
+opt-level = 1
+debug = 2
+
